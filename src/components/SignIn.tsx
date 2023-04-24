@@ -16,7 +16,8 @@ export default function SignIn({ providers, callbackUrl }: IProps) {
 					key={id}
 					text={`Sign In with ${name}`}
 					onClick={() => signIn(id, { callbackUrl })}
-					size='big'></ColorButton>
+					size='big'
+				/>
 			))}
 		</>
 	);

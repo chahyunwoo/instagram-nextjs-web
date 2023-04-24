@@ -1,7 +1,7 @@
 export interface CommentType {
 	comment: string;
 	username: string;
-	image: string;
+	image?: string;
 }
 
 export interface SimplePostType extends Omit<FullPostType, 'comments'> {

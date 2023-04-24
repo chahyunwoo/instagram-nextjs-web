@@ -1,8 +1,8 @@
-import { UserType } from '@/model/user';
+import { AuthUserType } from '@/model/user';
 import Avatar from './Avatar';
 
 interface IProps {
-	user: UserType;
+	user: AuthUserType;
 }
 
 export default function SideBar({ user: { name, username, image } }: IProps) {
